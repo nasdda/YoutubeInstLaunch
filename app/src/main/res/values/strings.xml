@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">YoutubePlayer</string>
-    <string name="GOOGLE_API_KEY">YOUR GOOGLE API KEY HERE</string>
+    <string name="GOOGLE_API_KEY">YOUR GOOGLE API KEY HERE</string> //Change to your own Google Api Key
 </resources>
