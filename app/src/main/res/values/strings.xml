@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">YoutubePlayer</string>
+    <string name="GOOGLE_API_KEY">YOUR GOOGLE API KEY HERE</string>
+</resources>
