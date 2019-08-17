@@ -18,16 +18,16 @@ class YoutubePlaylistActivity : YouTubeBaseActivity(),YouTubePlayer.OnInitialize
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val display:Display = windowManager.defaultDisplay
-        var size = Point()
-        display.getSize(size)
+//         val display:Display = windowManager.defaultDisplay
+//         var size = Point()
+//         display.getSize(size)
 
         val layout = layoutInflater.inflate(R.layout.activity_youtube,null) as ConstraintLayout
         setContentView(layout)
 
         val playerView = YouTubePlayerView(this)
         playerView.layoutParams = ConstraintLayout.LayoutParams(
-            ViewGroup.LayoutParams.MATCH_PARENT, size.y/2
+            ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT
         )
         layout.addView(playerView)
 
